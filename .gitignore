@@ -1,0 +1,84 @@
+# =======================================================================
+# Xilinx Vivado & Vitis Unified IDE .gitignore
+# =======================================================================
+
+# -----------------------------------------------------------------------
+# Vivado Hardware Project
+# -----------------------------------------------------------------------
+# Generated synthesis, implementation, and simulation directories
+*.runs/
+*.cache/
+*.sim/
+*.hw/
+*.ip_user_files/
+*.gen/
+*.srcs/sources_1/bd/*/ip/
+*.srcs/sources_1/bd/*/hdl/
+*.srcs/sources_1/bd/*/hw_handoff/
+*.srcs/sources_1/bd/*/synth/
+
+# Vivado internal logs, temporary files, and checkpoints
+.Xil/
+*.jou
+*.log
+*.str
+*.dcp
+*.backup.*
+
+# -----------------------------------------------------------------------
+# Vitis Software Project (Unified IDE)
+# -----------------------------------------------------------------------
+# Workspace metadata, IDE caches, and local editor settings
+.metadata/
+.ide/
+.vitis/
+_ide/
+.vscode/
+.wsdata/
+RemoteSystemsTempFiles/
+.analytics/
+SDR/
+.theia/
+*.lock
+compile_commands.json
+.clangd/
+.clangd
+logs/
+
+# Auto-generated platforms, Board Support Packages (BSP), and wrappers
+# (These are automatically rebuilt from the .xsa file)
+*/export/
+*/bsp/
+*/hw/
+*/ps7_cortexa9_0/
+*/zynq_fsbl/
+
+# Build directories, CMake configurations, and compiled artifacts
+*/Debug/
+*/Release/
+*/build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.elf
+*.o
+*.a
+
+# -----------------------------------------------------------------------
+# Hardware Export Files & Bitstreams (Optional)
+# -----------------------------------------------------------------------
+# It is generally recommended to ignore heavy binaries.
+# Note: Comment out '*.xsa' if you prefer to track the hardware handoff 
+# file in Git to share it with software-only developers.
+*.bit
+*.bin
+#*.xsa
+*.hdf
+
+
+# -----------------------------------------------------------------------
+# OS System Files
+# -----------------------------------------------------------------------
+.DS_Store
+Thumbs.db
