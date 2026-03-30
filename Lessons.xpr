@@ -4,7 +4,7 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="67" Path="D:/Xilinx/Projects/Lessons/Lessons.xpr">
+<Project Product="Vivado" Version="7" Minor="67" Path="D:/Xilinx/Projects/Zynq_SDR/Lessons.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="a87da21a914046ee971048ab18639b4e"/>

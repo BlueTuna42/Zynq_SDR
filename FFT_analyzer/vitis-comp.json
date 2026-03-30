@@ -1,7 +1,7 @@
 {
   "name": "FFT_analyzer",
   "type": "HOST",
-  "platform": "D:\\Xilinx\\Projects\\Lessons\\SDR\\export\\SDR\\SDR.xpfm",
+  "platform": "D:\\Xilinx\\Projects\\Zynq_SDR\\SDR\\export\\SDR\\SDR.xpfm",
   "domain": "standalone_ps7_cortexa9_0",
   "cpuInstance": "ps7_cortexa9_0",
   "cpuType": "cortex-a9",
